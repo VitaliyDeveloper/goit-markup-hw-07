@@ -7,11 +7,12 @@
     flex-basis: calc((100% - 90px) / 3);
     margin-top: 30px;
     position: relative;
+    
+      &:not(:nth-child(3n)) {
+        margin-right: 30px;
+      }
   }
   
-  .our-work-item:not(:nth-child(3n)) {
-    margin-right: 30px;
-  }
   
   .our-work-title {
     line-height: 1.2;
