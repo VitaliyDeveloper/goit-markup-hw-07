@@ -11,11 +11,11 @@
     display: flex;
   }
   
-  .menu-item:not(:last-child) {
+  .menu__item:not(:last-child) {
     margin-right: 50px;
   }
   
-  .menu-link {
+  .menu__link {
     position: relative;
     display: block;
     font-weight: 500;
@@ -51,7 +51,7 @@
     display: flex;
   }
   
-  .contact-item-header {
+  .head-contact__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,8 +60,8 @@
       }
   }
     
-  .head-contact-mail,
-  .head-contact-tel {
+  .head-contact__mail,
+  .head-contact__tel {
     display: flex;
     font-weight: 500;
     font-size: 14px;
