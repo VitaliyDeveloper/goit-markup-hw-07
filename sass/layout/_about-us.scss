@@ -1,0 +1,50 @@
+.about-us-section {
+    padding-top: 94px;
+  }
+  
+  .about-us-list {
+    display: flex;
+    margin-top: -30px;
+  }
+  
+  .about-us-item {
+    margin-top: 30px;
+    width: 270px;
+  }
+  
+  .about-us-item:not(:first-child) {
+    margin-left: 30px;
+  }
+  
+  .div-icon-about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  }
+  
+  .about-us-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .about-us-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-color-contact);
+  }
