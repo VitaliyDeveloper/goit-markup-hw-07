@@ -2,12 +2,12 @@
     padding-top: 94px;
   }
   
-  .about-us-list {
+  .about-us-section__list {
     display: flex;
     margin-top: -30px;
   }
   
-  .about-us-item {
+  .about-us-section__item {
     margin-top: 30px;
     width: 270px;
 
@@ -17,7 +17,7 @@
   }
   
   
-  .div-icon-about-us {
+  .about-us-section__div-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +28,12 @@
     margin-bottom: 30px;
   }
   
-  .about-us-icon {
+  .about-us-section__icon {
     width: 70px;
     height: 70px;
   }
   
-  .about-us-title {
+  .about-us-section__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -43,7 +43,7 @@
     margin-bottom: 10px;
   }
   
-  .about-us-description {
+  .about-us-section__description {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;

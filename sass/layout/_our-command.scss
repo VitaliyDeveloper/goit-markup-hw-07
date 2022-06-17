@@ -2,18 +2,18 @@
     background-color: var(--secondary-accent-color);
   }
   
-  .our-command-title {
+  .our-command-section__title {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
   }
   
-  .our-command-list {
+  .our-command-section__list {
     display: flex;
     margin-top: -30px;
   }
   
-  .our-command-item {
+  .our-command-section__item {
     flex-basis: calc((100% - 120px) / 4);
     margin-top: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -33,7 +33,7 @@
     background-color: #ffffff;
   }
   
-  .our-command-name {
+  .our-command-wraper__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -43,7 +43,7 @@
     margin-bottom: 10px;
   }
   
-  .our-command-position {
+  .our-command-wraper__position {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;

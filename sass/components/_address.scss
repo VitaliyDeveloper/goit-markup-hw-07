@@ -7,7 +7,7 @@
     margin-right: 70px;
   }
   
-  .logo-footer {
+  .footer-container__logo {
     display: block;
     color: #ffffff;
     margin-bottom: 20px;
@@ -20,12 +20,12 @@
     color: #ffffff;
   }
   
-  .contact-item:not(:last-of-type) {
+  .footer-contact__item:not(:last-of-type) {
     margin-bottom: 9px;
   }
   
-  .footer-contact-tel,
-  .footer-contact-mail {
+  .footer-contact__tel,
+  .footer-contact__mail {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
