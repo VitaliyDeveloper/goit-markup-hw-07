@@ -166,10 +166,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head-contact-mail:hover .icon-contact,
-.head-contact-tel:hover .icon-contact,
-.head-contact-mail:focus .icon-contact,
-.head-contact-tel:focus .icon-contact {
+.head-contact__mail:hover .icon-contact,
+.head-contact__tel:hover .icon-contact,
+.head-contact__mail:focus .icon-contact,
+.head-contact__tel:focus .icon-contact {
   fill: var(--highlight-text-color);
 }
 
